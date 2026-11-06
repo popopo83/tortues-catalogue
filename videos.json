@@ -1,0 +1,60 @@
+[
+  {
+    "id": "film-demo",
+    "title": "Big Buck Bunny",
+    "description": "Film de démonstration MP4 public.",
+    "url": "https://storage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+    "category": "Films à découvrir",
+    "poster": "",
+    "backdrop": "",
+    "type": "film",
+    "year": "2008",
+    "tmdbId": 0
+  },
+  {
+    "id": "serie-demo",
+    "title": "Série de démonstration",
+    "description": "Exemple pédagogique de saisons et épisodes avec des flux publics de test.",
+    "type": "series",
+    "category": "Séries à découvrir",
+    "poster": "",
+    "backdrop": "",
+    "year": "2026",
+    "seasons": [
+      {
+        "number": 1,
+        "title": "Saison 1",
+        "episodes": [
+          {
+            "id": "s1e1",
+            "number": 1,
+            "title": "Premier épisode",
+            "description": "Exemple de lecture HLS.",
+            "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8"
+          },
+          {
+            "id": "s1e2",
+            "number": 2,
+            "title": "Deuxième épisode",
+            "description": "Exemple de lecture MP4.",
+            "url": "https://storage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4"
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "title": "Saison 2",
+        "episodes": [
+          {
+            "id": "s2e1",
+            "number": 1,
+            "title": "Nouveau départ",
+            "description": "Vidéo de démonstration.",
+            "url": "https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4"
+          }
+        ]
+      }
+    ],
+    "tmdbId": 0
+  }
+]
